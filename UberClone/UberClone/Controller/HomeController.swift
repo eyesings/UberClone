@@ -14,12 +14,14 @@ class HomeController: UIViewController {
     // MARK: - Properties
     
     private let mapView = MKMapView()
+    private let locationManager = CLLocationManager()
     
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         checkIfUserIsLoggedIn()
+        enableLocationService()
 //        signOut()
     }
     
@@ -48,7 +50,54 @@ class HomeController: UIViewController {
     // MARK: - Helper Function
     
     func configureUI() {
+        congifureMapView()
+    }
+    
+    func congifureMapView() {
         view.addSubview(mapView)
         mapView.frame = view.frame
+        
+        mapView.showsUserLocation = true
+        mapView.userTrackingMode = .follow
+    }
+}
+
+// MARK: - LocationService
+
+extension HomeController: CLLocationManagerDelegate {
+    func enableLocationService() {
+        locationManager.delegate = self
+        
+        var locationAuthorizationStatus: CLAuthorizationStatus
+        
+        if #available(iOS 14.0, *) {
+            locationAuthorizationStatus = locationManager.authorizationStatus
+        } else {
+            locationAuthorizationStatus = CLLocationManager.authorizationStatus()
+        }
+        
+        switch locationAuthorizationStatus {
+        case .notDetermined:
+            print("DEBUG: Not determined")
+            locationManager.requestWhenInUseAuthorization()
+        case .restricted, .denied:
+            break
+        case .authorizedAlways:
+            print("DEBUG: Auth alaways")
+            locationManager.startUpdatingLocation()
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        case .authorizedWhenInUse:
+            print("DEBUG: Auth when in use")
+            locationManager.requestAlwaysAuthorization()
+        @unknown default:
+            break
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+        if status == .authorizedWhenInUse {
+            locationManager.requestAlwaysAuthorization()
+        }
     }
 }
