@@ -18,6 +18,8 @@
 		F35FA66128EEC2630058948D /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FA66028EEC2630058948D /* AuthButton.swift */; };
 		F36EC97528F6328600F9D82A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97428F6328600F9D82A /* Service.swift */; };
 		F36EC97728F63C1A00F9D82A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97628F63C1A00F9D82A /* User.swift */; };
+		F36EC97928F6443A00F9D82A /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97828F6443A00F9D82A /* LocationHandler.swift */; };
+		F36EC97B28F6597C00F9D82A /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97A28F6597C00F9D82A /* DriverAnnotation.swift */; };
 		F370945828F4FCCC007ABA9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F370945728F4FCCC007ABA9B /* GoogleService-Info.plist */; };
 		F370945A28F504C8007ABA9B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370945928F504C8007ABA9B /* HomeController.swift */; };
 		F370945C28F529D3007ABA9B /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370945B28F529D3007ABA9B /* LocationInputActivationView.swift */; };
@@ -41,6 +43,8 @@
 		F35FA66028EEC2630058948D /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		F36EC97428F6328600F9D82A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F36EC97628F63C1A00F9D82A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F36EC97828F6443A00F9D82A /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		F36EC97A28F6597C00F9D82A /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 		F370945728F4FCCC007ABA9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F370945928F504C8007ABA9B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		F370945B28F529D3007ABA9B /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F35FA65C28EE8B020058948D /* Extensions.swift */,
+				F36EC97828F6443A00F9D82A /* LocationHandler.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				F36EC97628F63C1A00F9D82A /* User.swift */,
+				F36EC97A28F6597C00F9D82A /* DriverAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 				F35FA65B28EE86800058948D /* LoginController.swift in Sources */,
 				F35FA66128EEC2630058948D /* AuthButton.swift in Sources */,
 				F370945A28F504C8007ABA9B /* HomeController.swift in Sources */,
+				F36EC97928F6443A00F9D82A /* LocationHandler.swift in Sources */,
+				F36EC97B28F6597C00F9D82A /* DriverAnnotation.swift in Sources */,
 				F35FA65D28EE8B020058948D /* Extensions.swift in Sources */,
 				F35FA64228EE73270058948D /* AppDelegate.swift in Sources */,
 				F370945C28F529D3007ABA9B /* LocationInputActivationView.swift in Sources */,
