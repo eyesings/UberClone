@@ -14,6 +14,11 @@ protocol LocationInputViewDelegate: class {
 class LocationInputView: UIView {
     
     // MARK: - Properties
+    
+    var user: User? {
+        didSet { titleLabel.text = user?.email}
+    }
+    
     weak var delegate: LocationInputViewDelegate?
     
     private let backButton: UIButton = {
@@ -25,7 +30,6 @@ class LocationInputView: UIView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "태원 Terry Kim"
         label.font = UIFont.systemFont(ofSize: 16)
         return label
     }()
