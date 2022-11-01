@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol LocationInputActivationViewDelegate: class {
+protocol LocationInputActivationViewDelegate: AnyObject {
     func presentLocationInputView()
 }
 

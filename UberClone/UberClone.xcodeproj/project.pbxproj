@@ -16,6 +16,10 @@
 		F35FA65D28EE8B020058948D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FA65C28EE8B020058948D /* Extensions.swift */; };
 		F35FA65F28EEB99D0058948D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FA65E28EEB99D0058948D /* SignUpController.swift */; };
 		F35FA66128EEC2630058948D /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FA66028EEC2630058948D /* AuthButton.swift */; };
+		F36B32372900C20D009C28BF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B32362900C20D009C28BF /* MenuController.swift */; };
+		F36B32392900C230009C28BF /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B32382900C230009C28BF /* ContainerController.swift */; };
+		F36B323B2900DEF1009C28BF /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36B323A2900DEF1009C28BF /* MenuHeader.swift */; };
+		F36EB91E290F63F0007058AB /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EB91D290F63F0007058AB /* CircularProgressView.swift */; };
 		F36EC97528F6328600F9D82A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97428F6328600F9D82A /* Service.swift */; };
 		F36EC97728F63C1A00F9D82A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97628F63C1A00F9D82A /* User.swift */; };
 		F36EC97928F6443A00F9D82A /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EC97828F6443A00F9D82A /* LocationHandler.swift */; };
@@ -25,6 +29,12 @@
 		F370945C28F529D3007ABA9B /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370945B28F529D3007ABA9B /* LocationInputActivationView.swift */; };
 		F370945E28F537F1007ABA9B /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370945D28F537F1007ABA9B /* LocationInputView.swift */; };
 		F370946028F550E8007ABA9B /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370945F28F550E8007ABA9B /* LocationCell.swift */; };
+		F379D98628F7F11B00B89A4E /* RideActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379D98528F7F11B00B89A4E /* RideActionView.swift */; };
+		F382E1CE2902690000D36B88 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382E1CD2902690000D36B88 /* SettingController.swift */; };
+		F382E1D029026E9700D36B88 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382E1CF29026E9700D36B88 /* UserInfoHeader.swift */; };
+		F382E1D329027EBE00D36B88 /* AddLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382E1D229027EBE00D36B88 /* AddLocationController.swift */; };
+		F39D6C1A28FCEA7200B30799 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D6C1928FCEA7200B30799 /* Trip.swift */; };
+		F39D6C1C28FD100400B30799 /* PickupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D6C1B28FD100400B30799 /* PickupController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,10 @@
 		F35FA65C28EE8B020058948D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F35FA65E28EEB99D0058948D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		F35FA66028EEC2630058948D /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		F36B32362900C20D009C28BF /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		F36B32382900C230009C28BF /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		F36B323A2900DEF1009C28BF /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		F36EB91D290F63F0007058AB /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		F36EC97428F6328600F9D82A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F36EC97628F63C1A00F9D82A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F36EC97828F6443A00F9D82A /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
@@ -50,6 +64,12 @@
 		F370945B28F529D3007ABA9B /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
 		F370945D28F537F1007ABA9B /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		F370945F28F550E8007ABA9B /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		F379D98528F7F11B00B89A4E /* RideActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideActionView.swift; sourceTree = "<group>"; };
+		F382E1CD2902690000D36B88 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		F382E1CF29026E9700D36B88 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		F382E1D229027EBE00D36B88 /* AddLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationController.swift; sourceTree = "<group>"; };
+		F39D6C1928FCEA7200B30799 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		F39D6C1B28FD100400B30799 /* PickupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +149,11 @@
 		F35FA65728EE85A20058948D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F35FA65A28EE86800058948D /* LoginController.swift */,
-				F35FA65E28EEB99D0058948D /* SignUpController.swift */,
+				F382E1D129027E7A00D36B88 /* Setting */,
+				F36B32352900C1F4009C28BF /* SideMenu */,
+				F36B32342900C1CA009C28BF /* Authentication */,
 				F370945928F504C8007ABA9B /* HomeController.swift */,
+				F39D6C1B28FD100400B30799 /* PickupController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -143,6 +165,10 @@
 				F370945B28F529D3007ABA9B /* LocationInputActivationView.swift */,
 				F370945D28F537F1007ABA9B /* LocationInputView.swift */,
 				F370945F28F550E8007ABA9B /* LocationCell.swift */,
+				F379D98528F7F11B00B89A4E /* RideActionView.swift */,
+				F36B323A2900DEF1009C28BF /* MenuHeader.swift */,
+				F382E1CF29026E9700D36B88 /* UserInfoHeader.swift */,
+				F36EB91D290F63F0007058AB /* CircularProgressView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,8 +178,27 @@
 			children = (
 				F36EC97628F63C1A00F9D82A /* User.swift */,
 				F36EC97A28F6597C00F9D82A /* DriverAnnotation.swift */,
+				F39D6C1928FCEA7200B30799 /* Trip.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F36B32342900C1CA009C28BF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F35FA65A28EE86800058948D /* LoginController.swift */,
+				F35FA65E28EEB99D0058948D /* SignUpController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F36B32352900C1F4009C28BF /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F36B32362900C20D009C28BF /* MenuController.swift */,
+				F36B32382900C230009C28BF /* ContainerController.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		F3741F3EEB2F696F6467BCCD /* Frameworks */ = {
@@ -162,6 +207,15 @@
 				E59C4FDE735FFCB85D89B454 /* Pods_UberClone.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F382E1D129027E7A00D36B88 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F382E1CD2902690000D36B88 /* SettingController.swift */,
+				F382E1D229027EBE00D36B88 /* AddLocationController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F382E1D329027EBE00D36B88 /* AddLocationController.swift in Sources */,
+				F382E1CE2902690000D36B88 /* SettingController.swift in Sources */,
+				F382E1D029026E9700D36B88 /* UserInfoHeader.swift in Sources */,
+				F39D6C1A28FCEA7200B30799 /* Trip.swift in Sources */,
+				F36B32372900C20D009C28BF /* MenuController.swift in Sources */,
+				F39D6C1C28FD100400B30799 /* PickupController.swift in Sources */,
 				F35FA65B28EE86800058948D /* LoginController.swift in Sources */,
 				F35FA66128EEC2630058948D /* AuthButton.swift in Sources */,
 				F370945A28F504C8007ABA9B /* HomeController.swift in Sources */,
@@ -287,12 +347,16 @@
 				F36EC97B28F6597C00F9D82A /* DriverAnnotation.swift in Sources */,
 				F35FA65D28EE8B020058948D /* Extensions.swift in Sources */,
 				F35FA64228EE73270058948D /* AppDelegate.swift in Sources */,
+				F36EB91E290F63F0007058AB /* CircularProgressView.swift in Sources */,
 				F370945C28F529D3007ABA9B /* LocationInputActivationView.swift in Sources */,
 				F370946028F550E8007ABA9B /* LocationCell.swift in Sources */,
 				F36EC97528F6328600F9D82A /* Service.swift in Sources */,
 				F370945E28F537F1007ABA9B /* LocationInputView.swift in Sources */,
 				F35FA65F28EEB99D0058948D /* SignUpController.swift in Sources */,
+				F379D98628F7F11B00B89A4E /* RideActionView.swift in Sources */,
+				F36B323B2900DEF1009C28BF /* MenuHeader.swift in Sources */,
 				F36EC97728F63C1A00F9D82A /* User.swift in Sources */,
+				F36B32392900C230009C28BF /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
